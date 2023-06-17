@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body background="https://img.freepik.com/free-photo/abstract-smooth-empty-grey-studio-well-use-as-background-business-report-digital-website-template-backdrop_1258-55967.jpg?w=826&t=st=1686669686~exp=1686670286~hmac=e47a80db898562d0dbddc28541924da4ddbbaa8bd90f7b58c2106156347a5a1d" style="background-repeat: no-repeat;background-size: cover;">
+    <style>
+        .box
+        {
+            height: 400px;
+            width: 500px;
+            border: 2px solid black ;
+            border-radius: 50px 50px 50px 50px;
+            background-color:dimgray;
+            margin: auto;
+            margin-top: 9%;
+          
+        }
+        input[type=text], input[type=password], input[type=date], input[type=email] {
+  width: 50%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+    </style>
+    <div class="box"><center>
+    <form action="./web-site.html">
+         <p >forget password<br>
+         <p><input  type="email" placeholder="Enter your email" required></p>
+            <p> <input type="password" id="pwd"pattern="(?=.*[#,@,!,$,%,^,&,*])(?=.*[a-z])(?=.*[A-Z]).{8,15}" title="Invalid Input it must contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter and one symbol"  placeholder="Enter your new password" required></p>
+         <p><input  type="password"id="cpwd" pattern="(?=.*[#,@,!,$,%,^,&,*])(?=.*[a-z])(?=.*[A-Z]).{8,15}" title="Invalid Input it must contain 8 or more characters that are of at least one number, and one uppercase and lowercase letter and one symbol" placeholder="re-enter Enter your password" required></p>
+ <style>
+    .btn {
+      background-color:rgb(99,99,9);
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      opacity: 0.6;
+      transition: 0.3s;
+    }
+   
+    
+    .btn:hover {opacity: 1}
+    </style><br>
+    <div class="kar"></div> 
+   <a href="./front.html"> <input class="btn" type="submit" value="confirm" style="margin: 4px 2px;" onclick="func()"></a>
+     <script src="./sign.js"></script>
+    </form>
+    </center>
+</div>
+</body>
+</html>

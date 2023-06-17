@@ -1,0 +1,71 @@
+
+.links
+{
+    
+    display: flex;
+    justify-content: flex-end;
+    height: 50px;
+    background-color:darkgray;
+    
+}
+
+a{
+   
+    font-size: smaller;
+    padding: 18px;
+}
+ 
+  .middle
+  {
+    font-size: smaller;
+    font-style: italic;
+  }
+  #float {
+    position: relative;
+    -webkit-animation: floatBubble 2s infinite  normal ease-out;
+    animation: floatBubble 9s infinite  normal ease-out;
+}
+
+@-webkit-keyframes floatBubble {
+    0% {
+        right:10%;
+    }
+    50% {
+      right:-60%;
+  }
+    100% {
+        right: 10%;
+    }
+}
+@keyframes floatBubble {
+  0% {
+    right:10%;
+}
+50% {
+  right:-60%;
+}
+100% {
+    right: 10%;
+}
+}
+#float
+{
+  margin-left: 10%;
+}
+.s{
+    height: 30px;
+    width: 0px;
+    border-radius: 2px solid red;
+    background-color: black;
+
+}
+.muss
+{
+  display: flex;
+  justify-content: space-evenly;
+
+}
+a:link
+{
+  text-decoration: none;
+}

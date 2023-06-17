@@ -1,0 +1,89 @@
+body{
+    background-image: url(https://free4kwallpapers.com/uploads/originals/2015/04/27/tulips-landscape.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+body
+{
+   
+    animation:change 4.3s ease infinite;
+}
+@keyframes change
+{
+    0%
+    {
+        background-image: url(https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=881&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    25%
+    {
+        background-image: url(https://maughanbuilding.com.au/wp-content/uploads/2018/03/custom-home-designers-perth_V2A8200.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    50%
+    {
+        background-image: url(https://images.unsplash.com/photo-1506429937242-f846f7c03553?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%
+    {
+        background-image: url(https://images.unsplash.com/photo-1511909022865-a30191182d6d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%
+    {
+        background-image: url(https://i.pinimg.com/originals/40/02/ff/4002ff430bdd6094b9b3b0c5f25b93e7.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+a:link
+{
+    text-decoration: none;
+    
+    
+}
+.main
+{
+    padding: 2%;
+    justify-content: flex-end;
+}
+a{
+   
+    
+    padding: 40px;
+    color: white;
+}
+h1{
+   
+    color:white;
+    font-size: 30px;
+    animation: kar 2s infinite;
+}
+@keyframes kar
+{
+0%
+{
+    text-shadow: 0 0 5px hotpink;
+}
+25%
+{
+    text-shadow: 0 0 5px blue;; 
+}
+50%
+{
+    text-shadow: 0 0 5px red;
+}
+75%
+{
+    text-shadow: 0 0 5px  green;
+}
+100%
+{
+    text-shadow: 0 0 5px goldenrod;
+}
+}
